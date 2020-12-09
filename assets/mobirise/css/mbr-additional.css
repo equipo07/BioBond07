@@ -16529,7 +16529,7 @@ padding-bottom: (@paddingBottom * 1rem);
 }
 
 .cid-siGxj7Ub28 {
-@idGallery: "siHQhroXKX";
+@idGallery: "siHURgsb44";
 @fullWidth: false;
 @paddingTop: 2;
 @paddingBottom: 0;
@@ -16822,7 +16822,7 @@ H6 {
 }
 
 .cid-siGVoX5SR9 {
-@idGallery: "siHQhsHNUV";
+@idGallery: "siHURh2cPX";
 @fullWidth: false;
 @paddingTop: 6;
 @paddingBottom: 6;
@@ -17171,16 +17171,6 @@ padding-bottom: (@paddingBottom * 1rem);
 
 .cid-siGuFzuGLW {
 
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
 }
 
 .cid-siGw0WMUwD {
@@ -17349,16 +17339,6 @@ padding-bottom: (@paddingBottom * 1rem);
 
 .cid-siGuXm0pBY {
 
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
 }
 
 .cid-shWaDwhQ4D {

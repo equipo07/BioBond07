@@ -64,7 +64,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": true,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
