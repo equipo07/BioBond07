@@ -16432,6 +16432,47 @@ img {
 }
 }
 
+.cid-siHRw3EtXE {
+@fullScreen: false;
+@fullWidth: false;
+@paddingTop: 6;
+@paddingBottom: 6;
+@textWidth: 10;
+@showText: true;
+@uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
+@uname__16: false;
+@uname__17: #cff8fe;
+@bg-value: #cff8fe;
+@bg-type: "color";
+@bg-color-value: #cff8fe;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.7;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+@media (max-width: 991px) {
+  .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.row {
+  flex-direction: row-reverse;
+}
+img {
+  width: 100%;
+}
+}
+
 .cid-siGAaGfOKd {
 @fullWidth: false;
 @paddingTop: 1;
@@ -16488,7 +16529,7 @@ padding-bottom: (@paddingBottom * 1rem);
 }
 
 .cid-siGxj7Ub28 {
-@idGallery: "siGxj82LO1";
+@idGallery: "siHQhroXKX";
 @fullWidth: false;
 @paddingTop: 2;
 @paddingBottom: 0;
@@ -16781,7 +16822,7 @@ H6 {
 }
 
 .cid-siGVoX5SR9 {
-@idGallery: "siGZ2SKy73";
+@idGallery: "siHQhsHNUV";
 @fullWidth: false;
 @paddingTop: 6;
 @paddingBottom: 6;
